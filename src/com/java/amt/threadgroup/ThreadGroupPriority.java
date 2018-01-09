@@ -4,6 +4,8 @@ package com.java.amt.threadgroup;
  * @author ${Suresh M Kumar}
  *
  * Jan 9, 2018
+ * 
+ * This program demonstrate working of priority operations in thread group
  */
 public class ThreadGroupPriority {
 
@@ -21,6 +23,7 @@ public class ThreadGroupPriority {
 		System.out.println(thread1.getName()+" :: " +thread1.getPriority());
 		System.out.println(thread2.getName()+" :: " +thread2.getPriority());
 		
+		
 		/***Changing the group priority from default (default is 10) to 1.****/
 		firstGroup.setMaxPriority(1);
 		
@@ -31,7 +34,8 @@ public class ThreadGroupPriority {
 		System.out.println(firstGroup.getName()+" group :: " +firstGroup.getMaxPriority());
 		System.out.println(thread1.getName()+" :: " +thread1.getPriority());
 		System.out.println(thread2.getName()+" :: " +thread2.getPriority());
-		System.out.println(thread3.getName()+" :: " +thread3.getPriority());
+		System.out.println(thread3.getName()+" :: " +thread3.getPriority());		
+		
 		
 		/**
 		*****************************
@@ -57,7 +61,8 @@ public class ThreadGroupPriority {
 		 	
 		 	In the above example, we can see the thread1 and thread2
 		 	contains the default thread group priority i.e., 5 but, 
-		 	thread3 having the new priority which is 1.*/
+		 	thread3 having the new priority which is 1.
+		*/
 	}
 
 }
