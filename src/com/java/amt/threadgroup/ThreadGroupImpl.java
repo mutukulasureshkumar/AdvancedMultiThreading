@@ -8,7 +8,8 @@ package com.java.amt.threadgroup;
  * Jan 9, 2018
  * 
  * In Java, every class must belongs to any of the thread group.
- * system thread group is one of the super thread group of Java. By default all the main classes are falls under main thread group.
+ * system thread group is one of the super thread groups of Java. 
+ * By default all the main classes are falls under the main thread group.
  * The parent thread group of main thread group is system thread group.
  * 
  *  This class will demonstrate creating of thread groups and relating to parent thread group.
